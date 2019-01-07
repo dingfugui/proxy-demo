@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE aspectj PUBLIC "-//AspectJ//DTD 1.5.0//EN" "http://www.eclipse.org/aspectj/dtd/aspectj_1_5_0.dtd">
+<aspectj>
+    <weaver options="-verbose -debug">
+    </weaver>
+    <aspects>
+        <aspect name="org.dfg.demo.proxy.aspectj.AspectJAdvisorClass"/>
+    </aspects>
+</aspectj>
